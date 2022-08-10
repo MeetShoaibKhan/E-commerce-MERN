@@ -15,8 +15,9 @@ const app = express();
 // const url = process.env.MONGO_URL;
 
 //MongoDB connection
+//Add username and password below for mongo db connection
 mongoose
-  .connect('mongodb+srv://for-ecommerce:for-ecommerce@cluster0.sixxw.mongodb.net/shop?retryWrites=true&w=majority')
+  .connect('mongodb+srv://<username>:<password>@cluster0.sixxw.mongodb.net/shop?retryWrites=true&w=majority')
   .then(()=>console.log("db connection succesfull"))
   .catch((err) => {
     console.log(err);
