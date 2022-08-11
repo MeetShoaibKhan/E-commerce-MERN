@@ -1,22 +1,22 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
+      img: "https://raw.githubusercontent.com/MeetShoaibKhan/E-commerce-MERN/Front-end/src/junk/1.png",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",
     },
     {
       id: 2,
-      img: "https://i.ibb.co/DG69bQ4/2.png",
-      title: "AUTUMN COLLECTION",
+      img: "https://raw.githubusercontent.com/MeetShoaibKhan/E-commerce-MERN/Front-end/src/junk/2.png",
+      title: "CASUAL COLLECTION",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fcf1ed",
     },
     {
       id: 3,
-      img: "https://i.ibb.co/XsdmR2c/1.png",
-      title: "LOUNGEWEAR LOVE",
+      img: "https://raw.githubusercontent.com/MeetShoaibKhan/E-commerce-MERN/Front-end/src/junk/3.png",
+      title: "DATE LOVE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",
     },
@@ -25,19 +25,18 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      // img: "https://i.ibb.co/cXFnLLV/3.png",
-      title: "SHIRT STYLE!",
+      img: "https://raw.githubusercontent.com/MeetShoaibKhan/E-commerce-MERN/Front-end/src/junk/c-1.2.jpg",
+      title: "CASUAL STYLE!",
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
+      img: "https://raw.githubusercontent.com/MeetShoaibKhan/E-commerce-MERN/Front-end/src/junk/c-2.jpg",
+      title: "FORMAL STYLE",
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
+      img: "https://raw.githubusercontent.com/MeetShoaibKhan/E-commerce-MERN/Front-end/src/junk/c-3.jpeg",
+      title: "TRADITIONAL STYLE",
     },
   ];
 
