@@ -36,7 +36,7 @@ const SerachContainer = styled.div`
 `;
 const Input = styled.input`
   border: none;
-  width: 50px;
+  width: 200px;
 `;
 
 
@@ -66,19 +66,30 @@ const MenuItem = styled.div`
   ${mobile({fontSize: "12px", marginLeft: "10px"})}
 `;
 
+const Select = styled.select`
+border: none;
+
+`;
+const Option = styled.option``;
+
 const NavBar = () => {
  return (
  	<Container>
     <Wrapper>
       <Left>
-        <Language>EN</Language>
+        <Language>
+          <Select>
+            <Option selected>EN</Option>
+            <Option>UR</Option>
+          </Select>
+        </Language>
         <SerachContainer>
           <Input placeholder="Search"/>
           <Search style={{color: 'gray', fontSize: 16 }}/>
         </SerachContainer>
       </Left>
       <Center>
-        <Logo>LAMA.</Logo>
+        <Logo>MEN'style.</Logo>
       </Center>
       <Right>
         <MenuItem>REGISTER</MenuItem>

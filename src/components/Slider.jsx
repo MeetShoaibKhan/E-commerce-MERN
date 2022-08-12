@@ -51,13 +51,19 @@ const Slide = styled.div`
 const ImgContainer = styled.div`
   height: 100%;
   flex: 1;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 
 const Image = styled.img`
-  height: 80%;
-
+  height: 90%;
+  transition: all .5s ease;
+  &:hover{
+    height: 100%;
+    transition: all 1s ease;
+  }
 `;
 
 const InfoContainer = styled.div`
@@ -82,6 +88,9 @@ const Button = styled.button`
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
+  &:hover{
+    box-shadow:  0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  }
 `;
 
 const Slider = () => {

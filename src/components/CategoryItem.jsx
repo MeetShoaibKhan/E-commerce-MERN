@@ -40,6 +40,9 @@ const Button = styled.button`
   color: gray;
   cursor: pointer;
   font-weight: 600;
+  &:hover{
+    box-shadow:  0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  }
 `;
 
 const CategoryItem = ({item}) => {

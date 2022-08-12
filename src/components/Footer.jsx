@@ -31,6 +31,10 @@ const SocialIcon = styled.div`
   align-items: center;
   justify-content: center;
   margin-right:20px;
+  &:hover{
+    color: #${props=>props.color};
+    background-color: white;
+  }
 `;
 
 const Center = styled.div`
