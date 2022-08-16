@@ -37,7 +37,7 @@
 <h3 align="center">E-commerce Website</h3>
 
   <p align="center">
-    This is a fully functional eCommerce store that uses React in the front-end and uses Express + MongoDB to carry back-end operations. We use JWT to carry authentications snd use Stripe for payments operations.
+    This is a fully functional eCommerce store that uses React in the front-end and uses Express + MongoDB to carry back-end operations. We use JWT to carry authentications and use Stripe for payments operations.
     <br />
     <a href="https://github.com/MeetShoaibKhan/E-commerce-MERN"><strong>Explore the docs »</strong></a>
     <br />
